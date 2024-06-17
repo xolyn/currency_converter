@@ -51,3 +51,47 @@ function convertCurrency(selectedText, rates) {
   Last updated : ${dt}
   `);
 }
+
+
+
+
+// backup code:
+// ----------------------------------------------------------------------------------------
+// chrome.runtime.onInstalled.addListener(() => {
+//   chrome.contextMenus.create({
+//     id: "convertCurrency",
+//     title: "Convert Currency",
+//     contexts: ["selection"]
+//   });
+// });
+
+// chrome.contextMenus.onClicked.addListener((info, tab) => {
+//   if (info.menuItemId === "convertCurrency" && info.selectionText) {
+//     chrome.scripting.executeScript({
+//       target: { tabId: tab.id },
+//       function: convertCurrency,
+//       args: [info.selectionText]
+//     });
+//   }
+// });
+
+// function convertCurrency(selectedText) {
+//   const amount = parseFloat(selectedText.replace(/[^0-9.-]+/g, ""));
+//   if (isNaN(amount)) {
+//     alert("Selected text is not a valid number");
+//     return;
+//   }
+
+//   const usdToCny = 7;
+//   const usdToGbp = 0.75;
+//   const usdToJpy = 110;
+
+//   const cny = (amount * usdToCny).toFixed(2);
+//   const gbp = (amount * usdToGbp).toFixed(2);
+//   const jpy = (amount * usdToJpy).toFixed(2);
+
+//   alert(`$${amount} is approximately:
+//   - ¥${cny} CNY
+//   - £${gbp} GBP
+//   - ¥${jpy} JPY`);
+// }
