@@ -17,7 +17,6 @@ Mature currency converters have been prevail in Chrome extension store for a lon
 - Special thank to [Fawaz Ahmed](https://github.com/fawazahmed0) for provision of up-to-date exchange rate API. 
 
 ---
-<center>
-
+<p align="center">
 [Report issues](mailto:lz568@cornell.edu) | [Buy me a coffee](https://xoy.one/give.html)
-</center>
+</p>
