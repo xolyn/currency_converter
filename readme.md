@@ -19,5 +19,5 @@ Mature currency converters have been prevail in Chrome extension store for a lon
 ---
 <p align="center">
 <!-- [Report issues](mailto:lz568@cornell.edu) | [Buy me a coffee](https://xoy.one/give.html) -->
-<a href="mailto:lz568@cornell.edu">Report issues</a> | <a href="https://xoy.one/give.html" target="_blank">Buy me a coffee</a>
+<a href="https://github.com/xolyn/currency_converter/issues/new">Report issues</a> | <a href="https://xoy.one/give.html" target="_blank">Buy me a coffee</a>
 </p>
